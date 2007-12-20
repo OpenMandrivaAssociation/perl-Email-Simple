@@ -16,6 +16,7 @@ Source:         http://www.cpan.org/modules/by-module/Email/%{module}-%{up_versi
 BuildRequires:  perl-devel
 %endif
 BuildArch:      noarch
+BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 Email::Simple is the first deliverable of the "Perl Email Project", a reaction
