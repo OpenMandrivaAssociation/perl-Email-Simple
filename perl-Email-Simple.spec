@@ -1,8 +1,8 @@
 %define module      Email-Simple
 %define name        perl-%{module}
-%define version     2.00.3
-%define up_version  2.003
-%define release     %mkrel 3
+%define version     2.00.4
+%define up_version  2.004
+%define release     %mkrel 1
 
 Name:           %{name}
 Version:        %{version}
@@ -11,10 +11,7 @@ Summary:        Simple parsing of RFC2822 message format and headers
 License:        GPL or Artistic
 Group:          Development/Perl
 URL:            http://search.cpan.org/dist/%{module}
-Source:         http://www.cpan.org/modules/by-module/Email/%{module}-%{up_version}.tar.bz2
-%if %{mdkversion} < 1010
-BuildRequires:  perl-devel
-%endif
+Source:         http://www.cpan.org/modules/by-module/Email/%{module}-%{up_version}.tar.gz
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 
