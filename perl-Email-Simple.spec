@@ -1,7 +1,7 @@
 %define module      Email-Simple
 %define name        perl-%{module}
-%define version     2.00.4
-%define up_version  2.004
+%define up_version  2.005
+%define version     %perl_convert_version %{up_version}
 %define release     %mkrel 1
 
 Name:           %{name}
