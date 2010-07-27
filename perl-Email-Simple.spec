@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    Simple parsing of RFC2822 message format and headers
 License:    GPL+ or Artistic
@@ -12,8 +12,12 @@ Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Email/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:  perl(Email::Date::Format)
+
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
+
+Obsoletes: perl-Email-Simple-Creator <= 1.424.0
+Provides:  perl-Email-Simple-Creator  = 1.424.0
 
 %description
 Email::Simple is the first deliverable of the "Perl Email Project", a reaction
@@ -29,7 +33,7 @@ to the bone, fast, minimal in their external dependencies, and correct.
 %make
 
 %check
-%{__make} test
+%make test
 
 %install
 rm -rf %{buildroot}
