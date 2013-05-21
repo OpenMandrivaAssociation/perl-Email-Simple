@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	6
+Release:	7
 
 Summary:	Simple parsing of RFC2822 message format and headers
 License:	GPL+ or Artistic
