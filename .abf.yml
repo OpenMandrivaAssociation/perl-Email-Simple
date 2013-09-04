@@ -1,2 +1,4 @@
+removed_sources:
+  Email-Simple-2.100.tar.gz: 0c5d212246c5d75873fe7d0673fb9f78c2d59702
 sources:
-  "Email-Simple-2.100.tar.gz": 0c5d212246c5d75873fe7d0673fb9f78c2d59702
+  Email-Simple-2.201.tar.gz: 0ab521c9d80ceb40d3c5a5cd225f802ed7e3ec6e

@@ -1,10 +1,10 @@
 %define modname	Email-Simple
-%define modver	2.100
+%define modver	2.201
 
 Summary:	Simple parsing of RFC2822 message format and headers
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	7
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
