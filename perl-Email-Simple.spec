@@ -1,5 +1,5 @@
 %define modname	Email-Simple
-%define modver 2.202
+%define modver 2.203
 
 Summary:	Simple parsing of RFC2822 message format and headers
 Name:		perl-%{modname}
@@ -39,5 +39,6 @@ to the bone, fast, minimal in their external dependencies, and correct.
 %doc README Changes
 %{perl_vendorlib}/Email
 %{_mandir}/man3/*
+
 
 
