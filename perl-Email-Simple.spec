@@ -11,7 +11,8 @@ Url:		http://search.cpan.org/dist/%{modname}
 Source0:	http://www.cpan.org/modules/by-module/Email/Email-Simple-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(Email::Date::Format)
-BuildRequires: perl(Capture::Tiny)
+BuildRequires:	perl(Capture::Tiny)
+BuildRequires:	perl(Test::More)
 BuildRequires:	perl-devel
 Obsoletes:	perl-Email-Simple-Creator <= 1.424.0
 Provides:	perl-Email-Simple-Creator  = 1.424.0
